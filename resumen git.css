@@ -1,5 +1,27 @@
+
+html{background-color: rgb(230, 248, 147);}
+
+
 body{
+    width:80%;
+    border:2px solid #000;
     background-color:#009b22;
     color:#fff;
+    margin:auto;
 }
 
+
+.flex-container{
+    border:1px solid #000;
+display: flex;
+flex-flow: column wrap;
+justify-content:flex-start;
+
+}
+  dt{
+    color:#570b0b
+}
+h1{text-shadow: 6px -6px 3px #000;
+text-align: center;
+text-decoration:6px underline #fff;
+}
