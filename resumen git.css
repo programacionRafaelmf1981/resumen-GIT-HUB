@@ -5,21 +5,29 @@ html{background-color: rgb(230, 248, 147);}
 body{
     width:80%;
     border:2px solid #000;
-    background-color:#009b22;
+    background-color:#1e3c74;
     color:#fff;
     margin:auto;
+    padding:20px;
 }
 
 
 .flex-container{
+    background-color: #034652;
+    text-align: center;
     border:1px solid #000;
 display: flex;
 flex-flow: column wrap;
-justify-content:flex-start;
+justify-content:center;
 
 }
   dt{
-    color:#570b0b
+      margin-top: 10px;
+    color:#b0bd04
+}
+dd{margin-bottom: 30px;
+
+
 }
 h1{text-shadow: 6px -6px 3px #000;
 text-align: center;
